@@ -97,6 +97,7 @@ type
     Terrain_HeightTexResI = 10000, Terrain_MatResI, Terrain_MeshQualityF,
     Terrain_SkirtHeightF, Terrain_BlockSizeI
 
+const H3DRootNode* = 1.H3DNode
 
 {.push callConv: cdecl, dynlib: LibName.}
 {.push importc: "h3d$1".}
